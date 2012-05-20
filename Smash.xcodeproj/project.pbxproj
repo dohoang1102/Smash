@@ -15,6 +15,16 @@
 		7073FBEF1568C63200C0FAD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7073FBEE1568C63200C0FAD9 /* AppDelegate.m */; };
 		7073FBF21568C63200C0FAD9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7073FBF01568C63200C0FAD9 /* MainStoryboard.storyboard */; };
 		7073FBF51568C63300C0FAD9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7073FBF41568C63300C0FAD9 /* ViewController.m */; };
+		7073FC001568C6DF00C0FAD9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7073FBFC1568C6DF00C0FAD9 /* Default.png */; };
+		7073FC011568C6DF00C0FAD9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7073FBFD1568C6DF00C0FAD9 /* Default@2x.png */; };
+		7073FC021568C6DF00C0FAD9 /* Target-Smashed.png in Resources */ = {isa = PBXBuildFile; fileRef = 7073FBFE1568C6DF00C0FAD9 /* Target-Smashed.png */; };
+		7073FC031568C6DF00C0FAD9 /* Target.png in Resources */ = {isa = PBXBuildFile; fileRef = 7073FBFF1568C6DF00C0FAD9 /* Target.png */; };
+		7073FC061568C6EA00C0FAD9 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7073FC041568C6EA00C0FAD9 /* Icon.png */; };
+		7073FC071568C6EA00C0FAD9 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7073FC051568C6EA00C0FAD9 /* Icon@2x.png */; };
+		7073FC0A1568D37F00C0FAD9 /* Smash.aif in Resources */ = {isa = PBXBuildFile; fileRef = 7073FC091568D37F00C0FAD9 /* Smash.aif */; };
+		7073FC0C1568D3C100C0FAD9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7073FC0B1568D3C100C0FAD9 /* AudioToolbox.framework */; };
+		7073FC0E1568EA5F00C0FAD9 /* Target-Failed.png in Resources */ = {isa = PBXBuildFile; fileRef = 7073FC0D1568EA5F00C0FAD9 /* Target-Failed.png */; };
+		7073FC11156910F600C0FAD9 /* Fail.aif in Resources */ = {isa = PBXBuildFile; fileRef = 7073FC10156910ED00C0FAD9 /* Fail.aif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +32,25 @@
 		7073FBDE1568C63200C0FAD9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7073FBE01568C63200C0FAD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7073FBE21568C63200C0FAD9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7073FBE61568C63200C0FAD9 /* Smash-Info.plist */ = {isa = PBXFileReference; path = "Smash-Info.plist"; sourceTree = "<group>"; };
+		7073FBE61568C63200C0FAD9 /* Smash-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Smash-Info.plist"; sourceTree = "<group>"; };
 		7073FBE81568C63200C0FAD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7073FBEA1568C63200C0FAD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7073FBEC1568C63200C0FAD9 /* Smash-Prefix.pch */ = {isa = PBXFileReference; path = "Smash-Prefix.pch"; sourceTree = "<group>"; };
-		7073FBED1568C63200C0FAD9 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		7073FBEC1568C63200C0FAD9 /* Smash-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smash-Prefix.pch"; sourceTree = "<group>"; };
+		7073FBED1568C63200C0FAD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7073FBEE1568C63200C0FAD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7073FBF11568C63200C0FAD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		7073FBF31568C63200C0FAD9 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		7073FBF31568C63200C0FAD9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7073FBF41568C63300C0FAD9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7073FBFC1568C6DF00C0FAD9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7073FBFD1568C6DF00C0FAD9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7073FBFE1568C6DF00C0FAD9 /* Target-Smashed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Target-Smashed.png"; sourceTree = "<group>"; };
+		7073FBFF1568C6DF00C0FAD9 /* Target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Target.png; sourceTree = "<group>"; };
+		7073FC041568C6EA00C0FAD9 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		7073FC051568C6EA00C0FAD9 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		7073FC091568D37F00C0FAD9 /* Smash.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Smash.aif; sourceTree = "<group>"; };
+		7073FC0B1568D3C100C0FAD9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7073FC0D1568EA5F00C0FAD9 /* Target-Failed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Target-Failed.png"; sourceTree = "<group>"; };
+		7073FC10156910ED00C0FAD9 /* Fail.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fail.aif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7073FC0C1568D3C100C0FAD9 /* AudioToolbox.framework in Frameworks */,
 				7073FBDF1568C63200C0FAD9 /* UIKit.framework in Frameworks */,
 				7073FBE11568C63200C0FAD9 /* Foundation.framework in Frameworks */,
 				7073FBE31568C63200C0FAD9 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +71,8 @@
 		7073FBCF1568C63200C0FAD9 = {
 			isa = PBXGroup;
 			children = (
+				7073FC041568C6EA00C0FAD9 /* Icon.png */,
+				7073FC051568C6EA00C0FAD9 /* Icon@2x.png */,
 				7073FBE41568C63200C0FAD9 /* Smash */,
 				7073FBDD1568C63200C0FAD9 /* Frameworks */,
 				7073FBDB1568C63200C0FAD9 /* Products */,
@@ -67,6 +90,7 @@
 		7073FBDD1568C63200C0FAD9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7073FC0B1568D3C100C0FAD9 /* AudioToolbox.framework */,
 				7073FBDE1568C63200C0FAD9 /* UIKit.framework */,
 				7073FBE01568C63200C0FAD9 /* Foundation.framework */,
 				7073FBE21568C63200C0FAD9 /* CoreGraphics.framework */,
@@ -77,6 +101,8 @@
 		7073FBE41568C63200C0FAD9 /* Smash */ = {
 			isa = PBXGroup;
 			children = (
+				7073FC081568D37E00C0FAD9 /* Sounds */,
+				7073FBFB1568C6DF00C0FAD9 /* images */,
 				7073FBED1568C63200C0FAD9 /* AppDelegate.h */,
 				7073FBEE1568C63200C0FAD9 /* AppDelegate.m */,
 				7073FBF01568C63200C0FAD9 /* MainStoryboard.storyboard */,
@@ -96,6 +122,27 @@
 				7073FBEC1568C63200C0FAD9 /* Smash-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7073FBFB1568C6DF00C0FAD9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				7073FC0D1568EA5F00C0FAD9 /* Target-Failed.png */,
+				7073FBFC1568C6DF00C0FAD9 /* Default.png */,
+				7073FBFD1568C6DF00C0FAD9 /* Default@2x.png */,
+				7073FBFE1568C6DF00C0FAD9 /* Target-Smashed.png */,
+				7073FBFF1568C6DF00C0FAD9 /* Target.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		7073FC081568D37E00C0FAD9 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				7073FC10156910ED00C0FAD9 /* Fail.aif */,
+				7073FC091568D37F00C0FAD9 /* Smash.aif */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +198,15 @@
 			files = (
 				7073FBE91568C63200C0FAD9 /* InfoPlist.strings in Resources */,
 				7073FBF21568C63200C0FAD9 /* MainStoryboard.storyboard in Resources */,
+				7073FC001568C6DF00C0FAD9 /* Default.png in Resources */,
+				7073FC011568C6DF00C0FAD9 /* Default@2x.png in Resources */,
+				7073FC021568C6DF00C0FAD9 /* Target-Smashed.png in Resources */,
+				7073FC031568C6DF00C0FAD9 /* Target.png in Resources */,
+				7073FC061568C6EA00C0FAD9 /* Icon.png in Resources */,
+				7073FC071568C6EA00C0FAD9 /* Icon@2x.png in Resources */,
+				7073FC0A1568D37F00C0FAD9 /* Smash.aif in Resources */,
+				7073FC0E1568EA5F00C0FAD9 /* Target-Failed.png in Resources */,
+				7073FC11156910F600C0FAD9 /* Fail.aif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
